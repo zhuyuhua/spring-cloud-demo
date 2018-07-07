@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot-demo
+  profiles:
+    active: dev
+management:
+  security:
+    enabled: true
+#eureka:
+#  client:
+#   serviceUrl:
+#     defaultZone: http://localhost:1111/eureka/
+#  instance:
+#    instance-id: ${spring.application.name}:${random.int}
