@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-demo" />
+        <module name="spring-cloud-demo" />
+        <module name="spring-cloud-eureka-server" />
+        <module name="spring-cloud-hello-service" />
+        <module name="spring-cloud-ribbon-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="10" />
+      <module name="spring-boot-demo" target="10" />
+      <module name="spring-cloud-demo" target="1.8" />
+      <module name="spring-cloud-eureka-server" target="10" />
+      <module name="spring-cloud-hello-service" target="10" />
+      <module name="spring-cloud-ribbon-consumer" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
