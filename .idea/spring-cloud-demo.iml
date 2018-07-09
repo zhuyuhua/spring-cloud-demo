@@ -6,7 +6,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="JDK 10" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="JDK10" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

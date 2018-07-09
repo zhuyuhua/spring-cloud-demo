@@ -19,7 +19,7 @@
     </parent>
 
     <modules>
-        <module>spring-boot-demo</module>
+        <module>spring-cloud-boot</module>
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-hello-service</module>
         <module>spring-cloud-ribbon-consumer</module>

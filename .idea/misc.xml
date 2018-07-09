@@ -6,7 +6,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-hello-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-ribbon-consumer/pom.xml" />
@@ -14,5 +13,5 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="JDK 10" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="JDK10" project-jdk-type="JavaSDK" />
 </project>

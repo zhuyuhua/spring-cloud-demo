@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-demo" />
+        <module name="spring-cloud-boot" />
         <module name="spring-cloud-demo" />
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-hello-service" />
@@ -16,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="demo" target="10" />
       <module name="spring-boot-demo" target="10" />
+      <module name="spring-cloud-boot" target="10" />
       <module name="spring-cloud-demo" target="1.8" />
       <module name="spring-cloud-eureka-server" target="10" />
       <module name="spring-cloud-hello-service" target="10" />
