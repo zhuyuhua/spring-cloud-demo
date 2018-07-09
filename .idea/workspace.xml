@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aa3d8a3-94c5-475b-b891-88e8f3daa5bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring-cloud-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-cloud-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/somnus/springboot/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/somnus/springboot/web/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/somnus/springboot/web/MyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/somnus/springboot/web/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/application-dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/application-prd.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo/src/test/java/com/somnus/springboot/HelloApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="4aa3d8a3-94c5-475b-b891-88e8f3daa5bc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/spring-boot-demo/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
@@ -30,6 +9,7 @@
     <ignored path="$PROJECT_DIR$/spring-cloud-hello-service/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-ribbon-consumer/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-boot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +33,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
               <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-boot/src/main/java/com/somnus/springcloud/boot/HelloApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-boot/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -106,6 +113,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-hello-service/src/main/java/com/somnus/springcloud/helloservice/web/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-ribbon-consumer/src/main/java/com/somnus/springcloud/ribbonconsumer/ConsumerController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-boot/pom.xml" />
       </list>
     </option>
   </component>
@@ -160,6 +168,32 @@
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,12 +353,12 @@
       <workItem from="1530972609928" duration="147000" />
       <workItem from="1530972762681" duration="1982000" />
       <workItem from="1530974852705" duration="15589000" />
-      <workItem from="1531096395141" duration="286000" />
+      <workItem from="1531096395141" duration="891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20651000" />
+    <option name="totallyTimeSpent" value="21256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,14 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0-sources.jar!/com/sun/xml/bind/v2/model/impl/RuntimeBuiltinLeafInfoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-demo/src/main/resources/application-prd.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.0.0.RELEASE/spring-cloud-netflix-eureka-server-2.0.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,17 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-hello-service/src/test/java/com/somnus/springcloud/eurekaclient/SpringCloudEurekaClientApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hello-service/src/test/java/com/somnus/springcloud/boot/eurekaclient/SpringCloudEurekaClientApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -703,7 +722,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-hello-service/src/main/java/com/somnus/springcloud/helloservice/SpringCloudHelloServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hello-service/src/main/java/com/somnus/springcloud/boot/helloservice/SpringCloudHelloServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
@@ -793,7 +812,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/somnus/springcloud/eurekaserver/SpringCloudEurekaServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/somnus/springcloud/boot/eurekaserver/SpringCloudEurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -801,7 +820,7 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.RELEASE/spring-cloud-commons-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-hello-service/src/main/java/com/somnus/springcloud/helloservice/web/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-hello-service/src/main/java/com/somnus/springcloud/boot/helloservice/web/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -809,7 +828,7 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2-sources.jar!/com/netflix/discovery/DiscoveryClient.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon-consumer/src/main/java/com/somnus/springcloud/ribbonconsumer/ConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon-consumer/src/main/java/com/somnus/springcloud/boot/ribbonconsumer/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -833,7 +852,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon-consumer/src/main/java/com/somnus/springcloud/ribbonconsumer/SpringCloudRibbonConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-ribbon-consumer/src/main/java/com/somnus/springcloud/boot/ribbonconsumer/SpringCloudRibbonConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
@@ -847,6 +866,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-boot/src/main/java/com/somnus/springcloud/boot/HelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
