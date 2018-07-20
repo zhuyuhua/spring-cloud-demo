@@ -1,4 +1,4 @@
-package com.somnus.springcloud.boot.eurekaserver;
+package com.somnus.springcloud.eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

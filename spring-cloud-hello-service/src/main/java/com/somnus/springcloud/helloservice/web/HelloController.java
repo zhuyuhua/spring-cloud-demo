@@ -1,4 +1,4 @@
-package com.somnus.springcloud.boot.helloservice.web;
+package com.somnus.springcloud.helloservice.web;
 
 
 import org.slf4j.Logger;

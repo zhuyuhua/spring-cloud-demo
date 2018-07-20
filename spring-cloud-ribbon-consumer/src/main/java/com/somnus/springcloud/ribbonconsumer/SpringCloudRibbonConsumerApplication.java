@@ -1,4 +1,4 @@
-package com.somnus.springcloud.boot.ribbonconsumer;
+package com.somnus.springcloud.ribbonconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

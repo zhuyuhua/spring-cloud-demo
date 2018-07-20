@@ -1,4 +1,4 @@
-package com.somnus.springcloud.boot.ribbonconsumer;
+package com.somnus.springcloud.ribbonconsumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
