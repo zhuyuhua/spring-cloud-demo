@@ -1,0 +1,14 @@
+eureka:
+  client:
+   serviceUrl:
+     defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+server:
+  port: 9001
+spring:
+  application:
+    name: springcloud-feign-service
+feign:
+  hystrix:
+    enabled: true

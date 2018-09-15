@@ -18,7 +18,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
  * Created by zhuyuhua on 2018/6/8.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = HelloApplication.class)
+@SpringBootTest(classes = SpringCloudBootApplication.class)
 public class HelloApplicationTests {
 
     private MockMvc mvc;
