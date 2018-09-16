@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   application:
-    name: springcloud-service-hello
+    name: spring-cloud-service-hello
 eureka:
   client:
    serviceUrl:

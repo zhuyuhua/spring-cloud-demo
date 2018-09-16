@@ -1,6 +1,6 @@
 spring:
   application:
-    name: springcloud-ribbon-comsumer
+    name: spring-cloud-service-ribbon
 server:
   port: 9000
 eureka:

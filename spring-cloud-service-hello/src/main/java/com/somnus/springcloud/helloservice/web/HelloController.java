@@ -27,7 +27,7 @@ public class HelloController {
 
 
 
-    @RequestMapping(value="/hello-service",method = RequestMethod.GET)
+    @RequestMapping(value="/service-hello",method = RequestMethod.GET)
     public String hello(@RequestParam String name){
 
         System.out.println("in "+this.getClass().getName()+",name:"+name+",port:"+port);

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: springcloud-ribbon-comsumer
+    name: spring-cloud-service-zuul
 server:
   port: 8769
 eureka:
@@ -13,7 +13,11 @@ zuul:
   routes:
     api-a:
       path: /api-a/**
-      serviceId: service-ribbon
+      serviceId: spring-cloud-service-ribbon
     api-b:
       path: /api-b/**
-      serviceId: service-feign
+      serviceId: spring-cloud-service-feign
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+

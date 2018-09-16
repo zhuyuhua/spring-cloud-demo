@@ -10,8 +10,18 @@ public class HelloController {
     HelloService helloService;
 
 
-    @RequestMapping(value = "/ribbon-consumer",method = RequestMethod.GET)
+    @RequestMapping(value = "/service-ribbon",method = RequestMethod.GET)
     public String helloConsumer(@RequestParam String name){
+
+        String value = helloService.helloService(name);
+        System.out.println("in "+this.getClass().getName()+",value:"+value);
+
+        return  value;
+
+    }
+
+    @RequestMapping(value = "/hi",method = RequestMethod.GET)
+    public String hiConsumer(@RequestParam String name){
 
         String value = helloService.helloService(name);
         System.out.println("in "+this.getClass().getName()+",value:"+value);
