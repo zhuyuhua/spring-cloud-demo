@@ -18,6 +18,15 @@
 	<name>spring-cloud-boot</name>
 	<description>Demo project for Spring Boot</description>
 
+	<dependencies>
+		<dependency>
+			<groupId> org.projectlombok </groupId>
+			<artifactId> lombok </artifactId>
+			<version> 1.16.18 </version>
+		</dependency>
+
+	</dependencies>
+
 
 
 </project>

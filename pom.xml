@@ -19,6 +19,7 @@
     </parent>
 
     <modules>
+        <module>java8demo</module>
         <module>spring-cloud-boot</module>
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-service-hello</module>
