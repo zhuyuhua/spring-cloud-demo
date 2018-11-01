@@ -24,6 +24,8 @@ public class HelloController {
     @RequestMapping(value="/run",method = RequestMethod.GET)
     public String index(){
 
+        is_run=true;
+
         while (is_run) {
             try {
                 logger.debug(this.getClass().getName()+new Date());
