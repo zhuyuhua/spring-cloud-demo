@@ -19,7 +19,7 @@ public class HelloController {
 
     Logger logger = LoggerFactory.getLogger(getClass());
 
-    private boolean is_run = true;
+    private static boolean is_run = true;
 
     @RequestMapping(value="/run",method = RequestMethod.GET)
     public String index(){
