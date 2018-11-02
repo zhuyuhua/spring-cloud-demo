@@ -26,27 +26,37 @@ public class HelloController {
 
         is_run=true;
 
-        while (is_run) {
-            try {
-                logger.debug(this.getClass().getName()+new Date());
-                logger.info(this.getClass().getName()+new Date());
-                logger.warn(this.getClass().getName()+new Date());
-                logger.trace(this.getClass().getName()+new Date());
-                logger.error(this.getClass().getName()+new Date());
-                Thread.sleep(1000);
-            }catch (InterruptedException e){
+        new Thread(new Runnable() {
+
+            @Override
+            public void run() {
+
+                while (is_run) {
+                    try {
+                        logger.debug(this.getClass().getName() + new Date());
+                        logger.info(this.getClass().getName() + new Date());
+                        logger.warn(this.getClass().getName() + new Date());
+                        logger.trace(this.getClass().getName() + new Date());
+                        logger.error(this.getClass().getName() + new Date());
+                        Thread.sleep(10000);
+                    } catch (InterruptedException e) {
+
+                    }
+                }
 
             }
+        }).start();
 
-        }
+        return "running";
 
-        return "stop";
     }
 
-    @RequestMapping(value="/cancel",method = RequestMethod.GET)
-    public void cancel(){
+    @RequestMapping(value="/stop",method = RequestMethod.GET)
+    public String stop(){
 
         this.is_run = false;
+
+        return "stop";
 
     }
 }
