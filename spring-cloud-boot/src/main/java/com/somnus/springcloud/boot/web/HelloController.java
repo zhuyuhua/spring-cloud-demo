@@ -59,4 +59,13 @@ public class HelloController {
         return "stop";
 
     }
+
+    @RequestMapping(value="/info",method = RequestMethod.GET)
+    public String info(){
+
+        return "8:52";
+
+    }
+
+
 }
